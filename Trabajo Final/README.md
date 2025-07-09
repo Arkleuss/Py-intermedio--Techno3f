@@ -1,8 +1,15 @@
 Integrantes:
 Leandro Figliolia (arkleuss@gmail.com)
 
+Para ejecutar el programa es necesario la libreria pillow, el siguiente paso a paso es para crear un entorno virual que permita ejecutar el proyecto:
+1. Dentro de la carpeta [Trabajo Final] click derecho>Open Git bash here
+2. Dentro de la consola ejecutar el siguiente comando "   py -m venv Entorno_LF  "
+3. Ejecutar el comando "  source Entorno_LF/scripts/activate  "
+4. Ejecutar el comando "  pip install -r requeriments.txt  "
 
-ejecutar desde el archivo main.py
+Una vez realizado los pasos anteriores ejecutar desde el archivo main.py
+
+
 el programa tiene 3 modulos principales:
 
 1.Modulo inventario
