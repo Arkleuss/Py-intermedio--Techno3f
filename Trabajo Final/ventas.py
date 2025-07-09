@@ -27,6 +27,11 @@ class Ventas(tk.Frame):
         self.cargar_productos_v()
         self.timer_producto = None
         self.timer_clientes = None
+
+    def tkraise(self, aboveThis=None):
+        super().tkraise(aboveThis)
+        self.cargar_clientes_v()
+        self.cargar_productos_v()
         
     def obtener_numero_factura(self):
         try:
